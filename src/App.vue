@@ -1,20 +1,10 @@
 <template>
-  <router-link to='/'>首頁</router-link>
-  <router-link to='/ref'>ref功能試用</router-link>
   <router-view></router-view>
 </template>
 
 <script>
-import { ref } from 'vue'
-
 export default {
-  name: 'App',
-  setup () {
-    const hello = ref('hello')
-    return {
-      hello
-    }
-  }
+  name: 'App'
 }
 </script>
 
@@ -29,6 +19,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
