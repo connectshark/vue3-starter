@@ -21,6 +21,15 @@ export default {
       }, {
         value: 'reactive功能試用',
         route: '/reactive'
+      }, {
+        value: 'url hook試用',
+        route: '/loader'
+      }, {
+        value: 'teleport試用',
+        route: '/teleport'
+      }, {
+        value: '異步組建和Suspense用法',
+        route: '/suspense'
       }])
     const title = ref('Hi! vue3 starter')
     return {

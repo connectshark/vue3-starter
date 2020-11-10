@@ -1,4 +1,4 @@
-const { createWebHistory, createRouter } = require("vue-router");
+const { createWebHistory, createRouter } = require("vue-router")
 
 const history = createWebHistory()
 
@@ -16,6 +16,18 @@ const router = createRouter({
     {
       path: '/reactive',
       component: () => import('../views/reactive.vue')
+    },
+    {
+      path: '/loader',
+      component: () => import('../views/urlLoader.vue')
+    },
+    {
+      path: '/teleport',
+      component: () => import('../views/teleport.vue')
+    },
+    {
+      path: '/suspense',
+      component: () => import('../views/suspense.vue')
     }
   ]
 })
