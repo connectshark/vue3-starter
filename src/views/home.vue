@@ -18,6 +18,9 @@ export default {
     const routers = reactive([{
         value: 'ref功能試用',
         route: '/ref'
+      }, {
+        value: 'reactive功能試用',
+        route: '/reactive'
       }])
     const title = ref('Hi! vue3 starter')
     return {

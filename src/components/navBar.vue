@@ -29,6 +29,7 @@ export default {
     display: block;
     border-radius: 40px;
     box-shadow: 0 3px 10px #ccc;
+    margin-bottom: 20px;
     a{
       box-sizing: border-box;
       padding: 20px;
